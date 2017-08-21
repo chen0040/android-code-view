@@ -1,0 +1,19 @@
+To refresh the gradle local repositories cache, run the following from command line:
+
+gradlew --refresh-dependencies
+
+To list the gradle commands run the following:
+
+gradlew -q tasks
+
+To build the gradle project (and skip test)
+
+gradlew clean build -x test
+
+To upload the project to maven, run the following command:
+
+./gradlew clean build -x test -Prelease uploadArchives closeAndReleaseRepository
+
+for more details on deploying to maven, follow the link below:
+
+http://nemerosa.ghost.io/2015/07/01/publishing-to-the-maven-central-using-gradle/

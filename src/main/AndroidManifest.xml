@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.github.chen0040.androidcodeview">
+
+    <application />
+
+</manifest>
+
+
