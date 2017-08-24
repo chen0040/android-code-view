@@ -3,6 +3,7 @@ package com.github.chen0040.androidcodeview;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.os.Build;
+import android.util.AttributeSet;
 import android.webkit.WebView;
 
 /**
@@ -12,6 +13,14 @@ import android.webkit.WebView;
 public class SourceCodeView extends WebView {
     public SourceCodeView(Context context) {
         super(context);
+    }
+
+    public SourceCodeView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public SourceCodeView(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
     }
 
     public void setJavaCode(String content) {
