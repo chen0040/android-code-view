@@ -5,7 +5,7 @@ A code viewer with code syntax highlight for Android
 
 If you are using gradle, add the following dependency to your build.gradle file:
 
-compile 'com.github.chen0040:android-code-view:1.0.2'
+compile 'com.github.chen0040:android-code-view:1.0.4'
 
 If you are using maven, add the following dependency to your POM file.
 ```xml

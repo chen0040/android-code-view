@@ -8,7 +8,7 @@ android {
 
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 2
+        versionCode 4
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -111,12 +111,12 @@ if (project.hasProperty('release')) {
 
                     pom.project {
                         name 'Android Code View'
-                        description 'Android client for communicating with a magento site'
+                        description 'Android viewer for programming source code'
                         packaging 'jar'
                         url 'https://github.com/chen0040/android-code-view'
                         groupId 'com.github.chen0040'
                         artifactId 'android-code-view'
-                        version '1.0.2'
+                        version '1.0.4'
 
                         scm {
                             url 'https://github.com/chen0040/android-code-view.git'

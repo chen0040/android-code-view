@@ -35,7 +35,7 @@ public class SourceCodeView extends WebView {
 
         StringBuilder sb = new StringBuilder();
         sb.append("<html><head>");
-        sb.append("<link rel=\"stylesheet\" href=\"file:///android_asset/default.min.css\">");
+        sb.append("<link rel=\"stylesheet\" href=\"file:///android_asset/highlight.min.css\">");
         sb.append("<script src=\"file:///android_asset/highlight.min.js\"></script>");
         sb.append("<script>hljs.initHighlightingOnLoad();</script>");
         sb.append("</head>");
