@@ -29,15 +29,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
-    compile('com.github.chen0040:java-magento-client:1.0.9') {
-        exclude module: 'httpclient'
-        exclude module: 'slf4j-log4j12'
-        exclude module: 'fastjson'
-    }
-    compile 'com.squareup.okhttp3:okhttp:3.4.2'
     testCompile 'junit:junit:4.12'
-    compile group: 'com.alibaba', name: 'fastjson', version: '1.1.53.android'
-    testCompile "org.robolectric:robolectric:3.3.2"
 
     compile group: 'org.slf4j', name: 'slf4j-android', version: '1.7.7'
 }
